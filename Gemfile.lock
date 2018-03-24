@@ -1,0 +1,40 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    chronic (0.10.2)
+    concurrent-ruby (1.0.5)
+    connection_pool (2.2.1)
+    dotenv (2.2.1)
+    mustermann (1.0.2)
+    rack (2.0.4)
+    rack-protection (2.0.1)
+      rack
+    rake (12.3.0)
+    redis (4.0.1)
+    sidekiq (5.0.5)
+      concurrent-ruby (~> 1.0)
+      connection_pool (~> 2.2, >= 2.2.0)
+      rack-protection (>= 1.5.0)
+      redis (>= 3.3.4, < 5)
+    sinatra (2.0.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.1)
+      tilt (~> 2.0)
+    tilt (2.0.8)
+    whenever (0.10.0)
+      chronic (>= 0.6.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  rack (~> 2.0.4)
+  rake (~> 12.3.0)
+  sidekiq (~> 5.0.5)
+  sinatra (~> 2.0)
+  whenever (~> 0.10.0)
+
+BUNDLED WITH
+   1.16.1

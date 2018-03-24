@@ -1,0 +1,9 @@
+.git
+.DS_Store
+.AppleDouble
+.LSOverride
+.env
+.env.sample
+*.rbc
+log
+tmp

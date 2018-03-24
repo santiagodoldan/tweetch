@@ -1,0 +1,24 @@
+{
+  "awesomeTypescriptLoaderOptions": {
+    "errorsAsWarnings": true
+  },
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es2016", "dom"],
+    "jsx": "react",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": false,
+    "sourceMap": true,
+    "outDir": "dist",
+    "jsx": "react",
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "./src/api/*",
+    "./src/server.js"
+  ]
+}

@@ -2,7 +2,7 @@ FROM aptible/ruby:2.4-ubuntu-16.04
 
 LABEL app-name="tweetch"
 
-RUN apt-get update -qq && apt-get install -y build-essential curl cron vim apt-transport-https
+RUN apt-get update -qq && apt-get install -y build-essential curl cron vim apt-transport-https libpq-dev
 
 ENV HOME /root
 ENV APP_HOME /var/www/app

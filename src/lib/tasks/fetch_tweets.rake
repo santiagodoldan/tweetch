@@ -1,5 +1,4 @@
-require_relative '../../../config/sidekiq'
-require_relative '../../workers/fetch_tweets_worker'
+require_relative '../../config/sidekiq'
 
 namespace :cron do
   desc 'Fetch new tweets from Twitter'

@@ -5,4 +5,4 @@ require("ts-node").register({
 
 const env = process.env.NODE_ENV || "development"
 
-module.exports = require(`./config/webpack.${env}.ts`)
+module.exports = require(`./src/config/webpack.${env}.ts`)

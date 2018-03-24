@@ -9,6 +9,9 @@ gem 'rack', '~> 2.0.4'
 # Classy web-development dressed in a DSL.
 gem 'sinatra', '~> 2.0'
 
+# Collection of useful Sinatra extensions.
+gem 'sinatra-contrib'
+
 # A thin and fast web server.
 gem 'thin', '~> 1.7.2'
 

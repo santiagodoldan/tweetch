@@ -1,13 +1,19 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom"
 import "reflect-metadata"
-import { Routes } from "./routes"
+import "bootstrap"
 
-// import "./styles/main.scss"
+import "./styles/main.scss"
+
+import { Routes } from "./routes"
 
 export class AppContainer extends React.Component {
   public render() {
-    return <Routes />
+    return (
+      <div className="container">
+        <Routes />
+      </div>
+    )
   }
 }
 

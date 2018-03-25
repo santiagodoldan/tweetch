@@ -1,6 +1,6 @@
 require 'sequel'
 
-DB = Sequel.connect("postgres://#{ENV.fetch('POSTGRES_USER')}:#{ENV.fetch('POSTGRES_PASSWORD')}@postgres:5432/tweetch_development")
+DB = Sequel.connect(ENV.fetch('DATABASE_URL'))
 
 # FIXME: add migrations plugin
 DB.create_table? :tweets do

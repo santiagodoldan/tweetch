@@ -37,6 +37,11 @@ const config: webpack.Configuration = {
       title: "Teetch",
       template: "./src/app/index.html",
     }),
+    new webpack.DefinePlugin({
+      'process.env': {
+        'API_HOST': JSON.stringify(process.env.API_HOST)
+      }
+    })
   ],
 }
 

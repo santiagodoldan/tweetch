@@ -1,6 +1,7 @@
 /.bundle
 /log/*
 /tmp/*
+/dist/*
 !/log/.keep
 !/tmp/.keep
 /node_modules

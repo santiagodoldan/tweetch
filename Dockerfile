@@ -33,6 +33,9 @@ RUN $HOME/.yarn/bin/yarn install --production=false
 # COPY app to container
 COPY . $APP_HOME
 
+# Compile javascript source
+RUN $HOME/.yarn/bin/yarn build
+
 # Expose APP port
 EXPOSE 8080
 

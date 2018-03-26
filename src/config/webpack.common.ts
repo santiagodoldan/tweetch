@@ -8,7 +8,7 @@ const config: webpack.Configuration = {
     bundle: "./src/app/index.tsx",
   },
   output: {
-    path: __dirname + "/../dist/app",
+    path: __dirname + "/../../dist/app",
     publicPath: "/",
     filename: "[hash].bundle.js",
   },

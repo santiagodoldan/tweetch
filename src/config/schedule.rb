@@ -3,6 +3,6 @@ ENV.each { |k, v| env(k, v) }
 
 set :output, { error: '/var/log/cron-error.log', standard: '/var/log/cron.log' }
 
-every 1.minute do
+every 30.minutes do
   rake 'cron:fetch_tweets'
 end
